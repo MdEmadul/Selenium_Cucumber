@@ -2,6 +2,7 @@ package Steps_File;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Login_Step {
 
 	WebDriver driver;
-	@Given("user landed on bank homepage")
+	@Given("user landed webdriveruniversity home page")
 	public void user_landed_on_bank_homepage() {
 		System.setProperty("webdriver.chrome.driver","System.");
 		WebDriverManager.chromedriver().setup();
@@ -22,12 +23,11 @@ public class Login_Step {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
 		System.out.println("printing landing page");
-		System.out.println("new commit");
-	   
 	}
 
-	@When("user clicked contact.us page")
+	@When("user clicked contactus page")
 	public void user_clicked_contact_us_page() {
+		driver.findElement(By.xpath("//*[@id=\"contact-us\"]/div/div[1]/h1"));
 		System.out.println("printing contact us page");
 		System.out.println("Test pull request");
 	    
