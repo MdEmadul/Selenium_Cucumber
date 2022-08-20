@@ -22,6 +22,7 @@ public class Login_Step {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
 		System.out.println("printing landing page");
+		System.out.println("new commit");
 	   
 	}
 
