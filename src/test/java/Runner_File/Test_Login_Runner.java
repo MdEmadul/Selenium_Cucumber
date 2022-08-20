@@ -15,8 +15,6 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true, 
 		dryRun = false
 
-		
-
 )
 
 public class Test_Login_Runner {
