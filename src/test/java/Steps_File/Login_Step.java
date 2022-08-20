@@ -29,7 +29,7 @@ public class Login_Step {
 	@When("user clicked contact.us page")
 	public void user_clicked_contact_us_page() {
 		System.out.println("printing contact us page");
-		System.out.println("Test pull reques");
+		System.out.println("Test pull request");
 	    
 	}
 
