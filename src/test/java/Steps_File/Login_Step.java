@@ -63,7 +63,7 @@ public class Login_Step {
 				.sendKeys("No comments at this point of time");
 		driver.findElement(By.xpath("//div[@id='form_buttons']/input[@value='SUBMIT']")).click();
 		System.out.println("user registered his information page");
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 
 	}
 
