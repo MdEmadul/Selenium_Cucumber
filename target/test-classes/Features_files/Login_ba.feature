@@ -6,8 +6,8 @@ Feature: Login to Bank of America
     When user clicked contactus page
     Then user registered his user name
     
- @RegressionTest
-  Scenario: Login to webdriveruniversity2
-    Given user landed webdriveruniversity home page
-    When user clicked contactus page
-    Then user registered his user name
+ #@RegressionTest
+  #Scenario: Login to webdriveruniversity2
+    #Given user landed webdriveruniversity home page
+    #When user clicked contactus page
+    #Then user registered his user name
